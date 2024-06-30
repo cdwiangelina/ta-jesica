@@ -42,7 +42,7 @@ class ModelController extends Controller
 
 
             // =================== bagi data ===================
-            $randomSplit = new RandomSplit($dataset, 0.1, 20);
+            $randomSplit = new RandomSplit($dataset, 0.1, 5);
             // data latih
             $dataLatih  =  $randomSplit->getTrainSamples();
             $labelLatih =  $randomSplit->getTrainLabels();

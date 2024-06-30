@@ -45,7 +45,7 @@
                                     </ul>
                                   </div>
                                   <div class="col-4 text-center float-right">
-                                    <img src="{{ asset('AdminLTE') }}/dist/img/angelc.png" alt="user-avatar" class="img-fluid">
+                                    <img src="{{ asset('AdminLTE') }}/dist/img/jesica.jpg" alt="user-avatar" class="img-fluid">
                                   </div>
                                 </div>
                               </div>
@@ -63,7 +63,7 @@
                   <div class="info-box-content">
                     <span class="info-box-text">Dataset</span>
                     <span class="info-box-number">
-                      575
+                      468
                       <small>data</small>
                     </span>
                   </div>
@@ -79,7 +79,7 @@
                   <div class="info-box-content">
                     <span class="info-box-text">Data Latih</span>
                     <span class="info-box-number">
-                      517
+                      421
                         <small>data</small>
                       </span>
                   </div>
@@ -99,7 +99,7 @@
                   <div class="info-box-content">
                     <span class="info-box-text">Data Uji</span>
                     <span class="info-box-number">
-                      58 
+                      47 
                         <small>data</small>
                       </span>
                   </div>

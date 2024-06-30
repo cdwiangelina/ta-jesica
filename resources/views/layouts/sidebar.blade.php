@@ -9,8 +9,8 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
               <!-- Add icons to the links using the .nav-icon class
                    with font-awesome or any other icon font library -->
-              <li class="nav-item">
-                <a href="/" class="nav-link">
+              <li class="nav-item ">
+                <a href="/" class="nav-link {{ ($title == "Dashboard") ? 'active' : '' }}">
                   <i class="nav-icon fas fa-th"></i>
                   <p>
                     Dashboard
@@ -18,16 +18,16 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/dataset" class="nav-link">
-                  <i class="nav-icon fas fa-calendar-alt"></i>
+                <a href="/dataset" class="nav-link {{ ($title == "Dataset") ? 'active' : '' }}">
+                  <i class="nav-icon fas fa-database"></i>
                   <p>
                     Dataset
                   </p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/naivebayes" class="nav-link">
-                  <i class="nav-icon far fa-image"></i>
+                <a href="/naivebayes" class="nav-link {{ ($title == "Naive Bayes") ? 'active' : '' }}">
+                  <i class="nav-icon fas fa-hourglass-start"></i>
                   <p>
                     Naive Bayes
                   </p>
