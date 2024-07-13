@@ -105,7 +105,7 @@ class PreprocessingController extends Controller
 
     public function stemming($str){
         
-        require_once '/laragon/www/tugasakhir/vendor/autoload.php';
+        require_once '/laragon/www/jesica-ta/vendor/autoload.php';
 
         $stemmerFactory = new StemmerFactory();
         $stemmer  = $stemmerFactory->createStemmer();

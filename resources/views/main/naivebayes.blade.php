@@ -50,7 +50,7 @@
                   <tr>
                     <th>id</th>
                     <th>isi tweet</th>
-                    <th>cleaning</th>
+                    <th>cleansing</th>
                     <th>slangword</th>
                     <th>stopword</th>
                     <th>steming</th>

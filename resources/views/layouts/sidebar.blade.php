@@ -10,7 +10,7 @@
               <!-- Add icons to the links using the .nav-icon class
                    with font-awesome or any other icon font library -->
               <li class="nav-item ">
-                <a href="/" class="nav-link {{ ($title == "Dashboard") ? 'active' : '' }}">
+                <a href="/dashboard" class="nav-link {{ ($title == "Dashboard") ? 'active' : '' }}">
                   <i class="nav-icon fas fa-th"></i>
                   <p>
                     Dashboard
@@ -30,6 +30,14 @@
                   <i class="nav-icon fas fa-hourglass-start"></i>
                   <p>
                     Naive Bayes
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/logout" class="nav-link">
+                  <i class="nav-icon fas fa-arrow-right"></i>
+                  <p>
+                    Logout
                   </p>
                 </a>
               </li>
